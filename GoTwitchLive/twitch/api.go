@@ -27,7 +27,7 @@ func GetLiveStreams() []Response {
 	}
 
 	req, err := http.NewRequest("GET", "https://api.twitch.tv/kraken/streams/?stream_type=live&limit=100", nil)
-	req.Header.Add("Client-ID", "<Put your client ID here>")
+	req.Header.Add("Client-ID", "<Enter your client ID here>")
 	req.Header.Add("Accept", "application/vnd.twitchtv.v5+json")
 
 	resp, err := client.Do(req)

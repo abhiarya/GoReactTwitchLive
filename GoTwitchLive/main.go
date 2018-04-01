@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoTwitchLive/twitch"
+	"GoReactTwitchLive/GoTwitchLive/twitch"
 	"fmt"
 	"log"
 	"net/http"

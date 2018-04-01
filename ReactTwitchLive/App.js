@@ -62,7 +62,7 @@ export default class App extends React.Component {
 
     this.setState({liveStreams: []});
 
-    fetch('http://localhost:8080/go-twitch-live')
+    fetch('http://locahost:8080/go-twitch-live')
       .then(response => response.json())
       .then(liveStreams => {
          this.setState(
