@@ -27,7 +27,7 @@ http://localhost:8080/go-twitch-live
 
 You should see a long JSON response. If you see it then you have successfully run the server. 
 
-- Now change "localhost" to your local IP address at the line #43 in "$HOME/go/src/GoReactTwitchLive/ReactTwitchLive/App.js".
+- Now change "localhost" to your local IP address at the line #65 in "$HOME/go/src/GoReactTwitchLive/ReactTwitchLive/App.js".
 
 Change the URL to "http://a.b.c.d:8080/go-twitch-live"
 
